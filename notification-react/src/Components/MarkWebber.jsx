@@ -12,15 +12,13 @@ import React,{ forwardRef, useState } from "react"
     ref) => {
 
     const [isUnread, setUnread] = useState(false);
-
-       
+  
         function setUnreadMessage(){
-       
         setUnread(true);
+
         if(!isUnread){
             onClick();
         }
-       
      };
 
     return(
