@@ -30,7 +30,6 @@ const AngelaGray = forwardRef(({
                     <p><strong>{strong2}</strong> {title2}</p>
                     <p>{paragraph2}</p>
                 </div>
-               
             </div>
         </>
     );

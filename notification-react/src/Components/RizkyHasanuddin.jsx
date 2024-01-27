@@ -1,6 +1,3 @@
-
-
-
 export default function RizkyHasanuddin ({img4, title4, paragraph4, strong4}){
 
     return(
@@ -11,7 +8,6 @@ export default function RizkyHasanuddin ({img4, title4, paragraph4, strong4}){
                     <p><strong>{title4}</strong>{strong4}</p>
                     <p>{paragraph4}</p>
                 </div>
-               
             </div>
         </>
     )

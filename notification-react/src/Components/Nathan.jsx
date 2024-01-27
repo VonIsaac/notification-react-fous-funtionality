@@ -1,5 +1,3 @@
-
-
 export default function Nathan({img5, title5, paragraph5, strong5,strongss}){
 
     return(
@@ -11,9 +9,10 @@ export default function Nathan({img5, title5, paragraph5, strong5,strongss}){
                         <strong>{strong5}</strong>{title5} <br /> 
                         <strong>{strongss}</strong>
                     </p>
-                    <p>{paragraph5}</p>
+                    <p>
+                        {paragraph5}
+                    </p>
                 </div>
-                
             </div>
         </>
     )

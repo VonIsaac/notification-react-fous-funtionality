@@ -8,7 +8,6 @@ const JacobThompson = forwardRef(({
     strongs, 
     unread, 
     onClick
-
 }, 
     ref) => {
 
@@ -31,8 +30,7 @@ const JacobThompson = forwardRef(({
             <div id="p3">
                 <p><strong>{strong3}</strong>{title3} <strong>{strongs}</strong></p>
                 <p>{paragraph3}</p>
-            </div>
-                
+            </div>    
         </div>
         </>
     );

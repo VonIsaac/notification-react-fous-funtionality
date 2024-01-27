@@ -33,7 +33,6 @@ import React,{ forwardRef, useState } from "react"
                     <p><strong>{strongz}</strong>{title} <strong>{strong}</strong></p>
                     <p >{paragraph}</p>
                 </div>   
-                
             </div>
         
         </> 
