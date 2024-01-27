@@ -1,9 +1,12 @@
 {
+  "homepage": "https://github.com/VonIsaac/notification-react-fous-funtionality.git",
   "name": "notification-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run buld", 
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
