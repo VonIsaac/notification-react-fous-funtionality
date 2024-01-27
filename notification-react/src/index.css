@@ -1,0 +1,182 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ body{
+    background-color: #3a3b3c;
+ }
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.notif{
+    border: 1px solid black;
+    padding: 2rem;
+    height: 85%;
+    width: 40%;
+    border-radius: 0.75rem;
+    border: none;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.notif h1{
+    color: #316FF6;
+}
+
+.unread{
+    margin-bottom: 15px;
+    color: #9ca3af;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.unread:hover{
+    color: #316FF6;
+    transition: 0.5s ease;
+}
+
+.mark-webber img {
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.mark-webber{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 3px;
+    height: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+    border: none;
+}
+
+.mark-webber.active{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#p1{
+    position: relative;
+    left: 11%;
+    bottom: 52%;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+
+.angela-gray img{
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.angela-gray{
+    border:  1px solid black;
+    margin-bottom: 20px;
+    padding: 3px;
+    height: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+    border: none
+}
+
+.angela-gray.active{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#p2{
+    position: absolute;
+    left: 36%;
+    top: 36%;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+.jacob-thompson img{
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.jacob-thompson{
+    border:  1px solid black;
+    margin-bottom: 20px;
+    padding: 3px;
+    height: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+    border: none;
+}
+
+.jacob-thompson.active{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#p3{
+    position: absolute;
+    left: 36%;
+    top: 50%;
+}
+
+
+
+.rizky-hasanuddin img {
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.rizky-hasanuddin{
+    border:  1px solid black;
+    margin-bottom: 15px;
+    padding: 3px;
+    height: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+#p4{
+    position: absolute;
+    left: 36%;
+    top: 65%;
+}
+
+.nathan-pererson img{
+    width: 3rem;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.nathan-pererson{
+    border:  1px solid black;
+    margin-bottom: 20px;
+    padding: 3px;
+    height: 15%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+#p5{
+    position: absolute;
+    left: 36%;
+    top: 77%;
+    line-height: 1.3;
+}
